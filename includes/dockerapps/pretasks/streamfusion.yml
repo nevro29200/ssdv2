@@ -53,8 +53,8 @@
     env:
       Zilean__Database__ConnectionString: "Host=postgres-zilean;Port=5432;Database=zilean;Username=zilean;Password=zilean"
       Zilean__Dmm__ImportBatched: "true"
-      Zilean__Dmm__MaxFilteredResults: 200
-      Zilean__Dmm__MinimumScoreMatch: 0.85
+      Zilean__Dmm__MaxFilteredResults: "200"
+      Zilean__Dmm__MinimumScoreMatch: "0.85"
     volumes:
       - data-zilean:/app/data
     restart_policy: always
