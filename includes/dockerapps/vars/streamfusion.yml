@@ -15,5 +15,5 @@ pg_env:
   REDIS_PORT: "6379"
   LOG_LEVEL: "DEBUG"
   LOG_REDACTED: "False"
-  USE_HTTPS: True
+  USE_HTTPS: "True"
   TZ: Europe/London
